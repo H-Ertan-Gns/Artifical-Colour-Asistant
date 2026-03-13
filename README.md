@@ -25,8 +25,8 @@ Renk körü kullanıcılar için görüntüleri daha anlaşılır ve ayırt edil
 ```mermaid
 flowchart LR
     A[Fotoğraf / Kamera] --> B[Renk körlüğü tipi seçimi]
-    B --> C[Simülasyon\n(Ben nasıl görüyorum?)]
-    B --> D[Daltonization\n(Benim için düzeltilmiş)]
+    B --> C["Simülasyon (Ben nasıl görüyorum?)"]
+    B --> D["Daltonization (Benim için düzeltilmiş)"]
     C --> E[Üçlü karşılaştırma ekranı]
     D --> E
     E --> F[PDF rapor indirme]
